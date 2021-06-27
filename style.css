@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgba(0, 0, 0, 0.871);
+}
+
+/* section 1 code goes here */
+
+.section1{
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+    box-shadow: 0.5px 01px 10px black;
+}
+
+/* section 1 image code goes here */
+
+.img{
+    background-image: url("shivam1.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 18rem;
+    position: relative;
+}
+
+/* name code goes here */
+
+#name{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-shadow: 0px 0px 6px black,1px 1px 10px rgb(0, 0, 0);
+    padding: .7rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/* contact section goes here */
+
+#contact ul{
+    list-style-type: none;
+}
+.regular{
+    padding:0 15px;
+}
+
+/* language and skills combine section goes here */
+
+.languageBar,.skillsBar{
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+    margin: 1rem 0;
+}
+
+.languageBar .fill,.skillsBar .fill{
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.51rem;
+    color: white;
+    line-height: 1.5rem;
+    background-color: rgb(10, 163, 163);
+}
+
+
+/* skills section goes here */
+
+
+.skillsBar  .s70{
+    width:60%;
+}
+.skillsBar  .s30{
+    width:30%;
+}
+
+/* language section goes here */
+
+.languageBar .fill{
+    background-color: rgb(10, 163, 163);
+    width: 100%;
+}
+.languageBar .english{
+    width: 50%;
+}
+
+
+/* combine 2  & 3 section goes here */
+
+.section2,.section3{
+    width: 65%;
+    float: left;
+    box-shadow: 1px 2px 10px black;
+    margin: 1%;
+    padding: 0 15px;
+}
+ /* subsection code of section 2 & 3 goes here */
+
+.subSection1,.subSection2,.subSection3{
+    padding: 0 1.5rem 1rem;
+    line-height: .1rem;
+}
+
+/* section 2 code goes here */
+
+/* table code goes here */
+#table{
+    overflow: auto;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+
+/* section 3 code goes here */
+
+.section3{
+    height: 70vh;
+    scrollbar-track-color: rgb(255, 102, 255);
+    scrollbar-width: thin;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+/* utility classes goes here */
+.para{
+    color:rgb(10, 163, 163) ;
+}
+i{
+    color:rgb(10, 163, 163);
+    padding: 5px;
+}
+.bar{
+    width: 95%;
+    color:rgba(128, 128, 128, 0.405);
+    margin: 1.2rem auto;
+}
+h1{
+    line-height: 7rem;
+    font-size: 2.3rem;
+}
+.heading{
+    font-size: 1.4rem;
+}
+/* unordered list code goes here */
+
+ul {
+    list-style-position: inside;
+}
+ul a{
+    color: teal;
+}
+ul a:hover{
+    color: rgb(32, 225, 225);
+    text-decoration: none;
+}
+
+@media  (max-width:600px){
+    html{
+        font-size: 12px;
+    }
+    .section1,.section2,.section3{
+        width:90%;
+        margin: 5%;
+    }
+}
