@@ -127,7 +127,7 @@ table,th,td{
 /* section 3 code goes here */
 
 .section3{
-    height: 100vh;
+    height: 98vh;
     scrollbar-track-color: rgb(255, 102, 255);
     scrollbar-width: thin;
     overflow: auto;
@@ -176,6 +176,6 @@ ul a:hover{
         margin: 2%;
     }
     .section3{
-        height:100vh;
+        height:98vh;
     }
 }
