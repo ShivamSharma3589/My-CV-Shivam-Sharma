@@ -13,7 +13,7 @@
     width: 30%;
     float: left;
     margin: 1.5%;
-    box-shadow: 0.5px 01px 10px black;
+    box-shadow: 0.5px 1px 10px black;
 }
 
 /* section 1 image code goes here */
@@ -121,12 +121,37 @@ table,th,td{
     padding: 2px;
 }
 
-
-
+.certificates{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.certificate {
+    width: 32%;
+    text-align: center;
+    font-weight: 900;
+}
+.certificate img{
+    border: 1px solid rgba(0, 128, 128, 0.275);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+.certificate img:hover{
+    border: 2px solid rgb(43, 255, 255);
+}
+.certificate a,.certificate div{
+    color: teal;
+}
+.certificate a:hover,.certificate div:hover{
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+}
 
 /* section 3 code goes here */
 
 .section3{
+    position: relative;
     height: 98vh;
     scrollbar-track-color: rgb(255, 102, 255);
     scrollbar-width: thin;
@@ -134,6 +159,12 @@ table,th,td{
     scroll-behavior: smooth;
 }
 
+.head{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 128, 128, 0.118);
+}
 /* utility classes goes here */
 .para{
     color:rgb(10, 163, 163) ;
@@ -176,6 +207,12 @@ ul a:hover{
         margin: 2%;
     }
     .section3{
-        height:98vh;
+        height: 98vh;
+    }
+    .certificates{
+        flex-direction: column;
+    }
+    .certificate{
+        width: 100%;
     }
 }
